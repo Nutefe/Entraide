@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/idItemAcceuilCoor"
+            android:enabled="true"
+            android:title="Acceuil"
+            android:icon="@mipmap/ic_home"
+            app:showAsAction="ifRoom"
+            />
+        <!--<item
+            android:id="@+id/idItemArticleCoor"
+            android:enabled="true"
+            android:title="Articles"
+            android:icon="@mipmap/ic_article"
+            app:showAsAction="ifRoom"
+            />-->
+        <item
+            android:id="@+id/idItemFermeCoor"
+            android:enabled="true"
+            android:title="Fermes"
+            android:icon="@mipmap/ic_ferme"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/idItemRapportCoor"
+            android:enabled="true"
+            android:title="Rapports"
+            android:icon="@mipmap/ic_rapport"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/idItemProfileCoor"
+            android:enabled="true"
+            android:title="Profile"
+            android:icon="@mipmap/ic_user"
+            app:showAsAction="ifRoom"/>
+    </group>
+
+</menu>

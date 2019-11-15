@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".controllers.LoginActivity">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/idAppCompatImageViewLogo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/ic_entraide_round"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>anita ziga
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutUsername"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:hint="Nom d'utilisateur"
+                android:inputType="text"
+                android:textSize="16dp"
+                android:textColor="#000"
+                android:drawableLeft="@drawable/ic_account_box_black_24dp"
+                android:maxLines="1"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutPassword"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mot de passe"
+                android:inputType="textPassword"
+                android:textSize="16dp"
+                android:textColor="#000"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/idAppCompatButtonLogin"
+            android:layout_width="250dp"
+            android:text="Login"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@drawable/login_decor"
+            android:maxLines="1"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#169; copyrigth tous droits réservés"
+            android:textSize="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:gravity="center"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+</android.support.v4.widget.NestedScrollView>

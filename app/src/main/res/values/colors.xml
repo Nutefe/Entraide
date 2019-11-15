@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="textColor">#FFFFFF</color>
+    <color name="colorComposant">#26ae90</color>
+    <color name="colorTextCopyright">#302A2F</color>
+    <color name="colorfont">#FF32974A</color>
+    <color name="textColorBlack">#000000</color>
+
+    <color name="colorSilve">#A9B0BF</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDivider">#2FE897</color>
+    <color name="colorBorder">#a7a4a4</color>
+    <color name="colorExtra">#fffac1</color>
+
+    <color name="iconNavigationBottomColor">#26AE90</color>
+
+    <color name="contextual_bacground">#5ce2be</color>
+
+</resources>

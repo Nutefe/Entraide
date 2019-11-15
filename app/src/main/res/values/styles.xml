@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorComposant</item>
+        <item name="colorPrimaryDark">@color/colorSilve</item>
+        <item name="colorAccent">@color/colorComposant</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/colorComposant</item>
+        <item name="colorPrimaryDark">@color/colorSilve</item>
+        <item name="colorAccent">@color/colorComposant</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoAction">
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="colorPrimaryDark">@color/colorSilve</item>
+        <item name="colorAccent">@android:color/black</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SuperMaterialThem" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorComposant</item>
+        <item name="colorPrimaryDark">@color/colorSilve</item>
+        <item name="colorAccent">@color/textColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/MyActionMode</item>
+    </style>
+
+    <style name="MyActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/contextual_bacground</item>
+        <item name="titleTextStyle">@style/MyTextStyle</item>
+
+    </style>
+
+    <style name="MyTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/textColor</item>
+
+    </style>
+
+    <style name="AppThemeStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorComposant</item>
+        <item name="colorPrimaryDark">@color/colorSilve</item>
+        <item name="colorAccent">@color/textColor</item>
+    </style>
+
+    <style name="AppThemeStyleNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorComposant</item>
+        <item name="colorPrimaryDark">@color/colorSilve</item>
+        <item name="colorAccent">@color/colorSilve</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">false</item>
+    </style>
+
+    <style name="MyApparance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="hintText">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

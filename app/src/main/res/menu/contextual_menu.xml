@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:title="piece"
+            app:showAsAction="always"
+            android:icon="@mipmap/ic_piece">
+            <menu>
+                <item
+                    android:id="@+id/idItemPiece"
+                    android:title="joindre un fichier"/>
+                <item
+                    android:id="@+id/idItemPhoto"
+                    android:title="camera photo"/>
+                <item
+                    android:id="@+id/idItemVideo"
+                    android:title="camera video"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/idItemSend"
+            android:enabled="true"
+            android:title="Send"
+            android:icon="@mipmap/ic_send"
+            app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/idItemAcceuil"
+            android:enabled="true"
+            android:title="Acceuil"
+            android:icon="@mipmap/ic_home"
+            />
+        <item
+            android:id="@+id/idItemRapport"
+            android:enabled="true"
+            android:title="Rapports"
+            android:icon="@mipmap/ic_rapport"/>
+        <item
+            android:id="@+id/idItemDocument"
+            android:enabled="true"
+            android:title="Documents"
+            android:icon="@mipmap/ic_document"/>
+        <item
+            android:id="@+id/idItemProfile"
+            android:enabled="true"
+            android:title="Profile"
+            android:icon="@mipmap/ic_user"/>
+    </group>
+
+</menu>

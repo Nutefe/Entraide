@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/idTextViewRondFermeDetail"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="R"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:background="@drawable/decor_moi"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="5"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/idTextViewDetaiFermeNom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Nom"
+                android:textSize="12dp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="2"/>
+            <TextView
+                android:id="@+id/idTextViewDetaiFermeTypeAgent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Type Agent"
+                android:textSize="12dp"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Entraide Agricole</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">.helper.ScrollingViewBehavior</string>
+    <string name="floating_actionbutton_scrolling_view_behavior" translatable="false">.helper.ScrollAwareFABBehavior</string>
+    <string name="popup_title_permission_files_access">Cette application a besoin de permission pour fonctionner.</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/idItemArticle"
+            android:enabled="true"
+            android:title="Articles"
+            android:icon="@mipmap/ic_article"
+            />
+        <item
+            android:id="@+id/idItemFerme"
+            android:enabled="true"
+            android:title="Fermes"
+            android:icon="@mipmap/ic_ferme"/>
+        <item
+            android:id="@+id/idItemProfileUser"
+            android:enabled="true"
+            android:title="Profile"
+            android:icon="@mipmap/ic_user" />
+</menu>
